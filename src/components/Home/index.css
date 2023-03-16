@@ -1,0 +1,25 @@
+.home-image-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.mobile-home-image {
+  display: none;
+}
+@media (max-width: 767px) {
+  .mobile-home-image {
+    display: block;
+  }
+}
+
+.desktop-home-image {
+  display: block;
+}
+@media (max-width: 767px) {
+  .desktop-home-image {
+    display: none;
+  }
+}
